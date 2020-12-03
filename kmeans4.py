@@ -5,7 +5,7 @@ import PIL.Image as image
 
 # 加载图像，并规范化图像数据
 def load_data(filepath):
-    f = open('/Users/zhanglulu/Desktop/极客_数据分析实战/kmeans-master/baby.jpg', 'rb')
+    f = open('./baby.jpg', 'rb')
     img = image.open(f)
     data = []
 
